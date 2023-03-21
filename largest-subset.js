@@ -36,7 +36,6 @@ function maxSubsetSum(k) {
         let factors = getFactors(element);
         sums.push(sumArray(factors));
     });
-    console.log(sums);
 
     return sums;
 }
